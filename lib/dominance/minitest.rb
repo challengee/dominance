@@ -1,5 +1,4 @@
 module Minitest
-  raise 'Dominance for minitest/spec needs minitest/spec to be loaded' unless const_defined?(:Spec)
 
   # Add some functionality to minitest/spec.
   class Spec
